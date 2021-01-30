@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+
+.todo_conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    min-width: 50%;
+    font-size: 1.5rem;
+    
+  }
+
+
+.todo_item{
+
+        margin: 0.5rem;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 1s ease;
+        padding: 5px;
+        
+
+      
+}
+
+.select{
+    padding: 5px;
+}
+h1{
+    padding: 5vh;
+}

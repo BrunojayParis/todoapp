@@ -47,7 +47,7 @@ const Form = ({setStatus, setImputText, todos, setTodos, imputText}) =>{
         <div className="form_conteiner">
         <form className= {classes.root} >
             <TextField label= "Write your tasks here" id="standard-basic" value={imputText} onChange={getImput} type="text" className="todo_input"/>
-            <Button variant="contained" onClick={submitImput}  type= "submit" className= "todo_button">Submit</Button>
+            <Button variant="contained" onClick={submitImput}  type= "submit" className= "todo_button">ADD</Button>
             <div className="select">
                 <FormControl className={classes.formControl}>   
                 <InputLabel id="demo-simple-select-label">Status</InputLabel>
